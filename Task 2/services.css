@@ -1,0 +1,166 @@
+body {
+  
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.nav2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+.nav2 ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+
+.main {
+  background-color: #90b77d;
+  margin-top: -10px;
+}
+
+
+.info {
+  display: flex;
+  gap: 5px;
+}
+
+.note {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.note1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+
+header {
+  text-align: center;
+}
+
+.main1 {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.main2 {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.main3 {
+  max-height: 700px;
+  display: flex;
+}
+
+.main4 {
+  max-height: 700px;
+  display: flex;
+}
+
+.main1-1 {
+  padding: 40px;
+  /* margin: 0px auto; */
+  max-width: 400px;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.main2-1 {
+  padding: 40px;
+  /* margin: 0px auto; */
+  max-width: 400px;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.info button {
+  color: #b22222;
+  border-radius: 5px;
+  background-color: lightpink;
+  text-align: center;
+  border: none;
+  padding: 5px;
+  font-weight: bolder;
+}
+
+.main3-1 {
+  padding: 40px;
+  height: 100%;
+  /* margin: 0px auto; */
+  max-width: 400px;
+  background-color: white;
+  border-radius: 5px;
+/*   max-height: 400px; */
+}
+
+.main4-1 {
+  padding: 30px;
+  height: 100%;
+  /* margin: 0px auto; */
+  max-width: 400px;
+  background-color: white;
+  border-radius: 5px;
+/*   max-height: 400px; */
+}
+
+.table {
+  margin-bottom: 200px;
+}
+
+.main3-1 button {
+  padding: 5px 7px;
+}
+
+.main2-1 button {
+  padding: 5px 7px;
+}
+
+.main1-1 button {
+  padding: 5px 7px;
+}
+
+.main4-1 button {
+  padding: 2px 3px;
+}
+
+.footer p {
+  text-align: center;
+  /* margin-top: 30px; */
+}
+
+
+.footer {
+  background-color: #d2d79f;
+  padding: 5px 30px;
+  margin-top: 15px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .main4 {
+    margin-top: 10px;
+  }
+}
