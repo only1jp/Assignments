@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+/*   flex-direction: column; */
+}
+
+.main {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  /* gap: 15px; */
+  /* border-radius: 5px; */
+  /* height: auto;
+  width: auto; */
+}
+
+/* .flex {
+  margin-left: 15px;
+} */
+
+/* .flex1 {
+}
+
+.flex2 {
+}
+
+.flex3 {
+} */
+
+.grid-task{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cover1 {
+  background-color: hsl(31, 77%, 52%);
+
+  padding: 60px 30px;
+  width: 200px;
+  height: 300px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.cover2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 60px 30px;
+  width: 200px;
+  height: 300px;
+}
+
+.cover3 {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 5px 5px 0px;
+  padding: 60px 30px;
+  width: 200px;
+  height: 300px;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 7px;
+  border-color: hsl(0, 0%, 95%);
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media screen and (max-width: 800px) {
+  .cover1 {
+    border-radius: 0px;
+  }
+
+  .cover3 {
+    border-radius: 0px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cover1 {
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .cover3 {
+    border-radius: 0px 0px 5px 5px;
+  }
+}
